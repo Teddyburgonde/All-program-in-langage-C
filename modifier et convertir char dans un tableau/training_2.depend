@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1653029868 source:/home/bandama/Bureau/Formation_C/training_2/main.c
+	<stdio.h>
+	<stdlib.h>
+

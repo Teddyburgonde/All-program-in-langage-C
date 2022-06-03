@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1652804389 source:/home/bandama/Bureau/Formation_C/exercice_code_pin/main.c
+	<stdio.h>
+	<stdlib.h>
+

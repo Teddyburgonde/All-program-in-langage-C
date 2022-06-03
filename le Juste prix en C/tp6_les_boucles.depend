@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1652870152 source:/home/bandama/Bureau/Formation_C/tp6_les_boucles/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

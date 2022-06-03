@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1653297192 source:/home/bandama/Bureau/Formation_C/carte_identite/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1653325184 source:/home/bandama/Bureau/Formation_C/tp_8_string/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1653216160 source:/home/bandama/Bureau/Formation_C/tp_bilan_6/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

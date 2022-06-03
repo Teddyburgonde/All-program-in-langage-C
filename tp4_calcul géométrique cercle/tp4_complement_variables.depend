@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1652285848 source:/home/bandama/Bureau/Formation_C/tp4_complement_variables/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

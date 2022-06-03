@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1651919356 source:/home/bandama/Bureau/Formation_C/operateur_et_variable/main.c
+	<stdio.h>
+	<stdlib.h>
+

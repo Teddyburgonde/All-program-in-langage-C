@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1651848256 source:/home/bandama/Bureau/Formation_C/tp2 _memoire_et_ variable/main.c
+	<stdio.h>
+	<stdlib.h>
+
