@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1654334091 source:/home/bandama/Bureau/Formation_C/programmation modulaire /main.c
+	<stdio.h>
+	<stdlib.h>
+	"MATHEMATIQUE.h"
+
+1654333883 /home/bandama/Bureau/Formation_C/programmation modulaire /MATHEMATIQUE.h
+
+1654333883 source:/home/bandama/Bureau/Formation_C/programmation modulaire /mathematique.c
+	"MATHEMATIQUE.h"
+
