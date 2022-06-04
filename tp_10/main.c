@@ -1,31 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// define
-#define VERSION_PROGRAMME "R2D2"
-#define AUTEUR_PROGRAMME "Teddy"
-#define AUTEUR_EMAIL "banane.com"
-//macro
-#define A_PROPOS(titre) ("TP10: le preprocesseur")
-#define DEBUG_LOG(niveau, message) (("CRITIC,ERROR ou DEBUG"),("le message %s\n", __FILE__)
+#define DEBUG
+
+
+#define VERSION_PROGRAMME "V01R00"
+#define AUTEUR "Arnaud MERCIER <arnaud.mercier.formation@gmail.com>"
+
+#define A_PROPOS(titre) printf("\n%s \n", titre); \
+printf("\t Version: %s (%s, %s)\n", VERSION_PROGRAMME, __DATE__, __TIME__); \
+printf("\t Auteur: %s \n\n", AUTEUR);
+
+#define LOG_CRITIC "CRITIC"
+#define LOG_ERROR "ERROR"
+#define LOG_DEBUG "DEBUG"
+
+#ifdef DEBUG
+    #define DEBUG_LOG(niveau, message) printf("[%s] %s (%s:%d)\n", niveau, message, __FILE__, __LINE__);
+#else
+    #define DEBUG_LOG(niveau, message) ;
+#endif
 
 int main()
 {
-    printf("TP10: le preprocesseur\n");
-
-    putchar('\n');
-
-
+        DEBUG_LOG(LOG_DEBUG, "test")
     #ifndef DEBUG
-        printf("%s\n", A_PROPOS(titre));
-        printf("La version du programme est %s\n", VERSION_PROGRAMME);
-        printf("Il a était compiler %s à %s\n", __DATE__, __TIME__);
-        printf("Il a était compiler par %s\n", AUTEUR_PROGRAMME);
+        A_PROPOS("TP10-Preprocesseur")
     #endif
 
-    #ifdef DEBUG_LOG
-        printf("%s\n", DEBUG_LOG((message, niveau));
-    #endif
+        DEBUG_LOG(LOG_ERROR, "pointeur null !")
+
 
     return 0;
 }
