@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1572556982 source:c:\users\iko\desktop\formation_c\14-programmation_modulaire\tp11-programmation_modulaire\main.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+
+1572556246 c:\users\iko\desktop\formation_c\14-programmation_modulaire\tp11-programmation_modulaire\jeux.h
+
+1572557058 source:c:\users\iko\desktop\formation_c\14-programmation_modulaire\tp11-programmation_modulaire\jeux.c
+	"jeux.h"
+	"morpion.h"
+	<stdio.h>
+	<stdlib.h>
+
+1572556835 c:\users\iko\desktop\formation_c\14-programmation_modulaire\tp11-programmation_modulaire\morpion.h
+
+1572557101 source:c:\users\iko\desktop\formation_c\14-programmation_modulaire\tp11-programmation_modulaire\morpion.c
+	"morpion.h"
+	<stdio.h>
+	<stdlib.h>
+
+1572434712 source:c:\users\iko\desktop\formation_c\14-programmation_modulaire\tp11-programmation_modulaire\outils.h
+
+1572434632 source:c:\users\iko\desktop\formation_c\14-programmation_modulaire\tp11-programmation_modulaire\outils.c
+	"outils.h"
+
+1572434712 c:\users\iko\desktop\formation_c\14-programmation_modulaire\tp11-programmation_modulaire\outils.h
+
