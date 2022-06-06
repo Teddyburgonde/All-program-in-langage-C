@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1654516164 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/personnage.c
+
+1654516688 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/main.c
+	<stdio.h>
+	<stdlib.h>
+	"personnage.h"
+
+1654516613 /home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/personnage.h
+
