@@ -1,29 +1,32 @@
 #include "jeux.h"
-
+#include "morpion.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 void afficherBibliotheque()
 {
-    printf("Ma Bibliotheque de jeux (%d) : \n", NB_JEUX);
+    printf("Ma Bibliotheque de jeux (%d): \n", NB_JEUX);
     printf("\t1-Morpion\n");
     printf("\t2-Mastermind\n");
     printf("\t3-Pendu\n");
     printf("\t0-Sortir\n");
 }
 
-void selectionJeux(int selection)
+void selectionJeu(int selection)
 {
     switch(selection)
     {
         case MORPION:
-            printf(("Demarrage du jeu Morpion...\n");
+            printf("Demarrage du jeu Morpion...\n");
+            morpion();
         break;
 
         case MASTERMIND:
-            printf("Demarrage de jeux MASTERMIND...\n");
+            printf("Demarrage du jeu Mastermind...\n");
         break;
 
         case PENDU:
-            printf("Demarrage de jeux PENDU...\n");
+            printf("Demarrage du jeu Pendu...\n");
         break;
 
         case SORTIE:
@@ -33,7 +36,5 @@ void selectionJeux(int selection)
         default:
             printf("Choix invalide !\n");
         break;
-
     }
-
 }

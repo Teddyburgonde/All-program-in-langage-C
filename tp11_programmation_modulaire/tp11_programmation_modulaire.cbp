@@ -22,7 +22,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="jeux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeux.h" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="morpion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="morpion.h" />
+		<Unit filename="outils.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions />

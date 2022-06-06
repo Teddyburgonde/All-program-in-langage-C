@@ -1,19 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "jeux.h"
+#include "outils.h"
 
 int main()
 {
     int choix = 0;
+
+    A_PROPOS("TP11- programmation modulaire")
+
     do
     {
-    afficherBibliotheque();
+     afficherBibliotheque();
 
-    printf("A quel jeu voulez-vous jouer?");
-    fflush(stdin);
-    scanf("%d", &choix);
+     printf("Que voulez-vous faire? ");
+     fflush(stdin);
+     scanf("%d", &choix);
 
-    selectionJeu(choix);
-    }while(choix != SORTIR);
+     selectionJeu(choix);
+
+    }while(choix != SORTIE);
 
     return 0;
 }

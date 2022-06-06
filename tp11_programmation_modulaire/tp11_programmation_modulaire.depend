@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1654505788 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/tp11_programmation_modulaire/main.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+
+1654499298 /home/bandama/Bureau/Langage C/All-program-in-langage-C/tp11_programmation_modulaire/jeux.h
+
