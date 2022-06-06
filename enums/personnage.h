@@ -9,4 +9,11 @@ enum CLASSE
 
 };
 
+struct st_personnage
+{
+    char nom[100];
+    int pv;
+    int pm;
+};
+
 #endif // PERSONNAGE_H_INCLUDED
