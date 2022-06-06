@@ -7,10 +7,13 @@ int main()
     do
     {
     afficherBibliotheque();
+
     printf("A quel jeu voulez-vous jouer?");
     fflush(stdin);
     scanf("%d", &choix);
+
     selectionJeu(choix);
     }while(choix != SORTIR);
+
     return 0;
 }
