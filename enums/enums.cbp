@@ -22,6 +22,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="arme.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arme.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -5,7 +5,9 @@ void afficherPersonnage(Personnage perso)
 {
     printf("-> %s\n", perso.nom );
     printf("\t PV=%d\n", perso.pv );
-    printf("\t PM=%d\n", perso.pm );
+    printf("\t PM=%d\n", perso.pm);
+    printf("\t Classe=%d\n", perso.classe );
 
-
+    printf("\t");
+    afficherArme(perso.arme);
 }
