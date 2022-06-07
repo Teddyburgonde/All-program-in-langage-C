@@ -22,9 +22,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="client.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="media.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="media.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
