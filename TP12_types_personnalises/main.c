@@ -54,5 +54,24 @@ int main()
         afficherMedia(mediatheque[i]);
     }
 
+    emprunter(clients+1, mediatheque+2);
+    restituer(clients+1);
+        //afficher les clients
+    printf("\n------------CLIENTS ---------\n");
+    for(int i=0; i<NB_CLIENTS; i++)
+    {
+        printf("---client %d\n", i+1);
+        afficherClient(clients[i]);
+    }
+
+
+     //afficher les medias
+    printf("\n------------MEDIAS ---------\n");
+    for(int i=0; i<NB_MEDIAS; i++)
+    {
+        printf("---media %d\n", i+1);
+        afficherMedia(mediatheque[i]);
+    }
+
     return 0;
 };

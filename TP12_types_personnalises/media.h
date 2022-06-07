@@ -17,5 +17,7 @@ typedef struct st_media
     int  nb_dispo;
 }Media;
 void afficherMedia(Media);
+int prendreMedia(Media*);
+void poserMedia(Media*);
 
 #endif // MEDIA_H_INCLUDED

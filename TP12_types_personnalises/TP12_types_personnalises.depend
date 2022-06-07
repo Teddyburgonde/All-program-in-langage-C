@@ -1,17 +1,18 @@
 # depslib dependency file v1.0
-1654609359 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/media.c
+1654610921 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/media.c
 	"media.h"
 	<stdio.h>
 
-1654606596 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/client.c
+1654611452 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/client.c
 	"client.h"
 	<stdio.h>
 
-1654606596 /home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/client.h
+1654611213 /home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/client.h
+	"media.h"
 
-1654610032 /home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/media.h
+1654610921 /home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/media.h
 
-1654609824 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/main.c
+1654610170 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/TP12_types_personnalises/main.c
 	"client.h"
 	"media.h"
 
