@@ -11,3 +11,10 @@ void afficherPersonnage(Personnage perso)
     printf("\t");
     afficherArme(perso.arme);
 }
+
+void equipeArme(Personnage* perso, Arme arme)
+{
+    (*perso).arme = arme;
+
+    printf("%s est maintenant equipe de %s\n", perso->nom, perso->arme.nom);
+}

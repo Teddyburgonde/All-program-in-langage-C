@@ -25,4 +25,6 @@ typedef struct st_personnage Personnage;
 
 void afficherPersonnage(Personnage);
 
+void equipeArme(Personnage* perso, Arme arme);
+
 #endif // PERSONNAGE_H_INCLUDED

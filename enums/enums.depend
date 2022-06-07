@@ -1,15 +1,16 @@
 # depslib dependency file v1.0
-1654590781 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/personnage.c
+1654595459 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/personnage.c
 	"personnage.h"
 	<stdio.h>
 
-1654576067 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/main.c
+1654595649 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/main.c
 	<stdio.h>
 	<stdlib.h>
 	"personnage.h"
 	<string.h>
+	"arme.h"
 
-1654590781 /home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/personnage.h
+1654595243 /home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/personnage.h
 	"arme.h"
 
 1654591070 /home/bandama/Bureau/Langage C/All-program-in-langage-C/enums/arme.h

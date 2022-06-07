@@ -13,14 +13,16 @@ int main()
     Arme epee = {"excalibur", 10.5};
 
 
-    Personnage mage = {"Merlin", 10, 125, CLASSE_MAGE, baton};
+    Personnage mage = {"Merlin", 10, 125, CLASSE_MAGE};
 
     Personnage guerrier;
     guerrier.pv = 50;
     guerrier.pm = 0;
-    guerrier.arme = epee;
     guerrier.classe = CLASSE_GUERRIER;
     strcpy(guerrier.nom, "Arthur");
+
+    equipeArme(&mage, baton);
+    equipeArme(&guerrier, epee);
 
     afficherPersonnage(mage);
     afficherPersonnage(guerrier);
