@@ -1,10 +1,10 @@
 #include "media.h"
 #include <stdio.h>
 
-void afficherMedia(medias media)
+void afficherMedia(Media media)
 {
-    printf("->%s\n", media.titre);
-    printf("->%s\n", media.auteur);
-    printf("->%s\n", media.type);
-    printf("->%d\n", media.nombre);
+    printf("    Titre: %s\n", media.titre);
+    printf("    Auteur: %s\n", media.auteur);
+    printf("    Type: %d\n", media.type_media);
+    printf("    Dispo: %d\n", media.nb_dispo);
 };

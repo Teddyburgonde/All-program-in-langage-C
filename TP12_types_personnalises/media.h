@@ -1,14 +1,21 @@
 #ifndef MEDIA_H_INCLUDED
 #define MEDIA_H_INCLUDED
 
-struct st_media
+typedef enum MEDIA_TYPE
+{
+    TYPE_BOOK,
+    TYPE_MUSIC,
+    TYPE_MOVIE,
+    TYPE_GAMES
+}Type;
+
+typedef struct st_media
 {
     char titre[100];
     char auteur[100];
-    char type["livre",  "musique", "film", "jeux"];
-    int  nombre = 3;
-};
-typedef struct st_media Media;
-void afficherMedia(media);
+    Type type_media;
+    int  nb_dispo;
+}Media;
+void afficherMedia(Media);
 
 #endif // MEDIA_H_INCLUDED

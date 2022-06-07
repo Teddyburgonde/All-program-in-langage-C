@@ -1,5 +1,7 @@
 #define NB_MEDIAS 3
 #define NB_CLIENTS 2
+#include "client.h"
+#include "media.h"
 
 int main()
 {
@@ -21,12 +23,11 @@ int main()
             3
         },
         {
-        "MATRIX",
+            "MATRIX",
             "Wachowski",
             TYPE_MOVIE,
             2
         }
-
     };
 
 
@@ -36,8 +37,22 @@ int main()
         { "Marc", 23 }
     };
 
-    afficherClient("Arnaud");
-    void afficherMedia("Apex legends");
+    //afficher les clients
+    printf("\n------------CLIENTS ---------\n");
+    for(int i=0; i<NB_CLIENTS; i++)
+    {
+        printf("---client %d\n", i+1);
+        afficherClient(clients[i]);
+    }
+
+
+     //afficher les medias
+    printf("\n------------MEDIAS ---------\n");
+    for(int i=0; i<NB_MEDIAS; i++)
+    {
+        printf("---media %d\n", i+1);
+        afficherMedia(mediatheque[i]);
+    }
 
     return 0;
 };
