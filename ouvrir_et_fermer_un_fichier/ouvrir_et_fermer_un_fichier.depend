@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1654703757 source:/home/bandama/Bureau/Langage C/All-program-in-langage-C/ouvrir_et_fermer_un_fichier/main.c
+	<stdio.h>
+	<stdlib.h>
+
