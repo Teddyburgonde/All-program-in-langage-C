@@ -3,7 +3,7 @@
 
 int main()
 {
-    FILE* pt_fichier = fopen("readme.txt","r");
+    FILE* pt_fichier = fopen("data/readme.txt","r");
 
     if(pt_fichier == NULL)
     {
