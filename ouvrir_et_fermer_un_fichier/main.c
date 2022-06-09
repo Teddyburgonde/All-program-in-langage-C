@@ -3,7 +3,7 @@
 
 int main()
 {
-    FILE* pt_fichier = fopen("readme.txt","w");
+    FILE* pt_fichier = fopen("readme.txt","r");
 
     if(pt_fichier == NULL)
     {
@@ -13,7 +13,6 @@ int main()
     fputc('-', pt_fichier);
     fputs("Salut les codeurs !\n", pt_fichier);
     fprintf(pt_fichier, "Je suis %s et j'ai %d ans\n", "Ben", 36);
-
 
 
     int resultat = fclose(pt_fichier);
