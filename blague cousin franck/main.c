@@ -3,74 +3,59 @@
 
 int main()
 {
-    int nom_utilisateur = ' ';
-    int information_supplementaire = ' ';
+    int jouer_avec_moi = ' ';
+    int reponse_capital_france = ' ';
+    int reponse_lapin = ' ';
+    char prenom[100];
+    int jeux_video =' ';
 
-    printf("Bonjour je m'appelle Conan. Je suis un programme\n");
-    printf("qui n'a rien a envier aux meilleurs détectives du monde !\n");
-    printf("Avec un simple prénom et les empruntes\n");
-    printf("de tes doigts quand ils touchent le clavier\n");
-    printf("Je peux te dire des informations sur toi\n");
-    printf("Vas-y, Entre le chiffre correspondant à ton prénom s'il te plaît : \n");
-    printf("1.Franck 2.Un autre prenom à travers le monde\n");
+    printf("\tBonjour je m'appelle INTELLIGENCE 2.0. Je suis un programme \n");
+    printf("\tde culture general !\n");
+    printf("\tComment t'appelle tu ? \n");
+    scanf("%s", &prenom);
+    printf("\tBonjour %s\n", prenom);
+    printf("\tTu as grandi !!!\n");
+    printf("\ttu veux jouer avec moi ? \n");
+    printf("\tChoisi le chiffre correspondant \n");
+    printf("\t1.Oui 2.Non\n");
 
     // putchar("\n");
 
     printf("Chiffre : ");
 
-    scanf("%d", &nom_utilisateur);
+    scanf("%d", &jouer_avec_moi);
     putchar('\n');
-    if (nom_utilisateur == 1)
+    if (jouer_avec_moi == 1)
     {
-        printf("Hummm grace à mon intelligence artificielle j'ai pu comprendre que\n");
-        printf("ça risque d'etre vexant pour vous...\n");
-        printf("donc j'ai choisi de le dire en mode horoscope\n");
-        printf("ça sera plus FUN n'est ce pas ? :)\n");
-        putchar('\n');
-        printf("Amour: je pense que vous devriez apprendre à fabriquer un robot féminin\n");
-        printf("ça vous prendra moins de temps d'apprendre a faire cela\n");
-        printf("plutôt d'essayer de trouver une petite amie. Parole de machine\n");
-        putchar('\n');
-        printf("Argent : Eintein à dit Uber eat c'est qu'un trou noir\n");
-        printf("qui bouffe toutes vos économies !\n");
-        putchar('\n');
-        printf("Santé : c'est chaud...\n");
-        printf("Tu as vue en horoscope c'est plus fun^^\n ");
-        putchar('\n');
-    }
-
-    else if (nom_utilisateur == 2)
-    {
-        printf("Je ne connais rien sur toi, tu es un nobody\n");
-        printf("tu ne pèse pas dans le game désolé\n");
-
-    }
-
-    else
-    {
-        printf("Vous n'avez pas taper un chiffre valable\n");
-    }
-
-        printf("Voulez vous d'autre informations sur vous ?\n");
-        printf("1.Oui 2.Non\n");
+        printf("Quel est la capital de la France\n");
+        printf("1.Paris 2. Toulouse 3. Orleans\n");
         printf("Chiffre :\n");
-        scanf("%d", &information_supplementaire);
-        putchar('\n');
-        if (information_supplementaire == 1)
+        scanf("%d", &reponse_capital_france);
+        if (reponse_capital_france== 1)
         {
-            printf("Vous êtes une personne trop stressé !\n");
-            printf("Cool raoul , votre bla bla car sera au rdv\n");
-            printf("Aurevoir\n");
-        }
-        else if ( information_supplementaire == 2)
-        {
-            printf("Vous êtes Fragile ! Aurevoir\n");
-        }
-        else
-        {
-            printf("Vous n'avez pas taper un chiffre valable, Aurevoir\n");
-        }
+            printf("\tBravo , tu es trop forte !\n");
+            printf("\tQue mange un lapin ? ");
+            printf("\t1. du foin 2. Hamburger 3. Pizza\n");
+            printf("Chiffre :\n");
+            scanf("%d", &reponse_lapin);
+            putchar('\n');
+            if (reponse_lapin == 1)
+            {
+            printf("BRAVO\n");
+            putchar('\n');
+            printf("\tDans quel jeux video trouve ton des lapins ?\n ");
+            printf("\t1.batman 2.les lapins crétins 3.candycrush\n");
+            printf("Chiffre:\n");
+            scanf("%d", &jeux_video);
+            }
+            if(jeux_video == 2)
+            {
+                printf("Bravo");
+                printf("Je ne veux plus jouer avec toi\n");
+                printf("Tu es trop forte aurevoir !\n");
+            }
 
-
-    return 0;
+        }
+    }
+            return 0;
 }
